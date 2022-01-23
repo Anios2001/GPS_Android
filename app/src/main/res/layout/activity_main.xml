@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="12dp"
+        android:text="@string/LatLabel" />
+
+    <TextView
+        android:id="@+id/editTextLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/LatLabel" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LongLabel"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/editTextLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/LongLabel"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AltLabel"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/editTextAltitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/AltLabel"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AcuLabel"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/editTextAccuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/AcuLabel"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Updates"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/editTextUpdates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Updates"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sensor"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/editTextSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Sensor"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Address"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Address"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        >
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:id="@+id/locationSwitch"
+        android:layout_height="wrap_content"
+        android:text="Location Updates"
+        android:padding="2dp"
+        />
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gps/SavePower"
+        android:padding="3dp"
+        android:id="@+id/gpsChk"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/waypoints"
+        android:padding="4dp"
+        />
+     <TextView
+         android:id="@+id/waypointCount"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="0"
+         android:padding="2dp"
+         />
+  </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/newWaypointbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/new_waypoint" />
+    <Button
+        android:id="@+id/sh_Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/show_map" />
+    <Button
+        android:id="@+id/sh_waypoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/show_waypoint_list" />
+
+
+
+
+</LinearLayout>

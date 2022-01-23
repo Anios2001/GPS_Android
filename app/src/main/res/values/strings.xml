@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GPSApp</string>
+    <string name="LatLabel">Latitude</string>
+    <string name="LongLabel">Longitude</string>
+    <string name="AltLabel">Altitude</string>
+    <string name="AcuLabel">Accuracy</string>
+    <string name="Speed">Speed</string>
+    <string name="Address">Address</string>
+    <string name="Updates">Updates</string>
+    <string name="Sensor">Sensor</string>
+    <string name="noTrackMessage">Not Tracking</string>
+    <string name="stopTrackMessage">Stopped Updating location</string>
+    <string name="UpdateMessage">Updating Location</string>
+    <string name="ErrorMessage">Error</string>
+    <string name="notAvailableMessage">Not available</string>
+    <string name="new_waypoint">New Waypoint</string>
+    <string name="waypoints">WAYPOINTS</string>
+    <string name="show_waypoint_list">Show waypoint List</string>
+    <string name="show_map">Show Map</string>
+    <string name="title_activity_map_view">Map</string>
+</resources>
