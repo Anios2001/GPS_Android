@@ -21,6 +21,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug{
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "GPS_Test.apk"
+                }
+            }
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
